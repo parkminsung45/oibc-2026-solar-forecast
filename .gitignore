@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# 대회 원본 데이터 (재배포 금지 가능성 + 용량) — 로컬에만 보관
+*.parquet
+01_participant_dataset/sites.csv
+01_participant_dataset/smp.csv
+01_participant_dataset/train/smp.csv
+
+# 산출물
+outputs/
+submissions/
