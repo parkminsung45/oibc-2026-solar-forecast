@@ -14,3 +14,10 @@ __pycache__/
 # 산출물
 outputs/
 submissions/
+cache/
+
+# 파생 데이터·모델 (재생성 가능)
+artifacts/processed/
+artifacts/models/
+artifacts/predictions/
+catboost_info/
